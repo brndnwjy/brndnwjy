@@ -5,6 +5,7 @@ import { RecommendationCard } from "./RecommendationCard";
 import { Recommendation } from "./Recommendation";
 import { FavoriteCard } from "./FavoriteCard";
 import { Favorite } from "./Favorite";
+import { PhotoCard } from "./PhotoCard";
 
 export {
   Navbar,
@@ -14,4 +15,5 @@ export {
   Recommendation,
   FavoriteCard,
   Favorite,
+  PhotoCard,
 };
