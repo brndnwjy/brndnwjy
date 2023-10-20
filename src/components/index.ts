@@ -4,6 +4,7 @@ import { Hero } from "./Hero";
 import { RecommendationCard } from "./RecommendationCard";
 import { Recommendation } from "./Recommendation";
 import { FavoriteCard } from "./FavoriteCard";
+import { Favorite } from "./Favorite";
 
 export {
   Navbar,
@@ -12,4 +13,5 @@ export {
   RecommendationCard,
   Recommendation,
   FavoriteCard,
+  Favorite,
 };
