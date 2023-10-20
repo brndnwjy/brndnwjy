@@ -6,7 +6,7 @@ const alexbrush = Alex_Brush({ weight: "400", subsets: ["latin"] });
 
 export const Hero = () => {
   return (
-    <section className="bg-red-400 relative">
+    <section className="relative max-w-4xl">
       <Image
         src={"https://source.unsplash.com/random/900x600/?love"}
         alt="Concert"
