@@ -8,7 +8,7 @@ export const Navbar = () => {
     <nav
       className={`h-24 flex justify-center items-center ${poppins.className}`}
     >
-      <ul className="w-full max-w-5xl flex justify-between text-2xl">
+      <ul className="w-full max-w-4xl flex justify-between text-2xl">
         <li>
           <Link href={"/"}>Home</Link>
         </li>
