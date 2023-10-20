@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { Footer, Hero, Navbar } from "@/components";
+import { Footer, Hero, Navbar, Recommendation } from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,6 +11,7 @@ export default function Home() {
         className={`flex min-h-screen flex-col items-center justify-center ${inter.className}`}
       >
         <Hero />
+        <Recommendation />
       </main>
       <Footer />
     </>
