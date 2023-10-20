@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { Navbar } from "@/components";
+import { Footer, Navbar } from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +12,7 @@ export default function Home() {
       >
         Hello world
       </main>
+      <Footer />
     </>
   );
 }
